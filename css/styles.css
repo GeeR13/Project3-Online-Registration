@@ -97,8 +97,10 @@ label {
     color: #5e5a5a;
 }
 
-input:focus {
+input:focus,
+text-area:focus {
     background-color: #cdd4de;
+    border: solid rgb(18, 67, 152)
 }
 
 ::placeholder {
@@ -158,6 +160,7 @@ Media Queries
     .form-container,
     .newsletter-container {
         width: 70%;
+        margin: 0 auto;
     }
     .form-field input {
         width: 80%;
