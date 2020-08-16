@@ -163,21 +163,21 @@ Media Queries
         margin: 0 auto;
     }
     .form-field input {
-        width: 80%;
+        width: 70%;
         float: right;
     }
     .form-field label {
         float: left;
         clear: both;
-        margin-top: 20px;
+        margin-top: 30px;
     }
     .form-field input[name=user_zipcode] {
         float: none;
-        margin-left: 20%;
+        margin-left: 30%;
         width: 30%;
     }
     .form-field select[name=user_state] {
-        width: 80%;
+        width: 70%;
         float: right;
         margin-bottom: 1em;
     }
