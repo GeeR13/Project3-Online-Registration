@@ -20,7 +20,7 @@ Base Styles
 
 .header1 {
     width: 100%;
-    height: 2em;
+    height: 3.5em;
     margin-top: 0;
     padding-top: 1em;
     text-transform: uppercase;
@@ -47,6 +47,7 @@ Base Styles
     display: flex;
     flex-direction: column;
     width: 90%;
+    padding: 10px;
     margin: 0 auto;
     margin-top: .3em;
     border-top: 1px solid #000;
@@ -104,8 +105,7 @@ text-area:focus {
 }
 
 ::placeholder {
-    padding-left: 85%;
-    padding-right: 3%;
+    text-align: right;
 }
 
 .newsletter-container {
@@ -157,27 +157,30 @@ Media Queries
 /* Desktop*/
 
 @media(min-width: 768px) {
+    .newsletter {
+        margin-bottom: 6px;
+    }
     .form-container,
     .newsletter-container {
         width: 70%;
         margin: 0 auto;
     }
     .form-field input {
-        width: 70%;
+        width: 66%;
         float: right;
     }
     .form-field label {
         float: left;
         clear: both;
-        margin-top: 30px;
+        margin-top: 12px;
     }
     .form-field input[name=user_zipcode] {
         float: none;
-        margin-left: 30%;
+        margin-left: 33%;
         width: 30%;
     }
     .form-field select[name=user_state] {
-        width: 70%;
+        width: 67%;
         float: right;
         margin-bottom: 1em;
     }
